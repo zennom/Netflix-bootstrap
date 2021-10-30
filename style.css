@@ -1,0 +1,192 @@
+body{
+    background-color: black;
+}
+
+header{
+    min-height: 80vh;
+    background-image: url('assets/popsignuptwoweeks.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header .display-2,.display-5{
+    font-weight: 600;
+}
+
+.input-group {
+    max-width: 668px;
+}
+
+.input-group div{
+    color: white;
+    border-color: #ED1C24;
+    background-color: #ED1C24;
+}
+
+.input-group input{
+    border-color: white;
+}
+
+.input-group input:focus{
+    box-shadow: none;
+    border-color: white;
+}
+
+.getStarted-sm input{
+    border-color: white;
+}
+
+.getStarted-sm input:focus{
+    border-color: white;
+    box-shadow: none;
+}
+
+.getStarted-sm button{
+    border-color: #ED1C24;
+    background-color: #ED1C24;
+}
+
+.getStarted-sm button:hover{
+    border-color: #ED1C24;
+    background-color: #ED1C24;
+}
+
+.getStarted-sm button:focus{
+    box-shadow: none;
+}
+
+
+.navbar .navbar-nav .nav-item a{
+    background-color: #ED1C24;
+}
+
+.navbar .navbar-nav .nav-item a:hover{
+    background-color: #ED1C24;
+  border-color: #ED1C24;
+}
+
+.navbar .navbar-nav .nav-item a:focus{
+    box-shadow: none;
+}
+
+.form-select {
+    color: white;
+    border: 1px solid white;
+    background: none;
+    background-image: url('assets/sort-down.svg');
+    background-position: right 10px center;
+    background-size: 13px;
+    background-repeat: no-repeat;
+}
+
+.form-select option{
+    color: black;
+}
+
+.form-select:focus{
+    border-color: white;
+    box-shadow: none;
+}
+
+.accordion{
+    max-width: 668px;
+}
+
+.accordion-button.collapsed {
+    color: white;
+    background-color: #303030;
+    border-radius: 6px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #303030;
+    border-radius: 6px;
+}
+
+
+.accordion-item {
+    background-color: #303030;
+    border: 1px solid #303030;
+    margin: 16px 0px;
+    border: 0;
+}
+
+.accordion-button:focus {
+    border-color: #303030;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("assets/times.svg");
+    background-size: 13px;
+    background-position: right 5px center;
+}
+
+.accordion-button::after {
+    background-image: url("assets/plus.svg");
+    background-size: 16px;
+    background-position: right 0px center;
+}
+.accordion-item:first-of-type {
+    border-radius: 6px;
+}
+.accordion-item:first-of-type .accordion-button {
+    border-radius: 6px;
+}
+.accordion-item:not(:first-of-type) {
+    border-radius: 6px;
+}
+.accordion-item:last-of-type {
+    border-radius: 6px;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-radius: 6px;
+}  
+
+footer .row{
+    max-width: 992px;
+}
+
+footer .form-select {
+    color: #757575;
+    border: 1px solid #757575;
+    background: none;
+    background-image: url('assets/sort-down-footer.svg');
+    background-position: right 10px center;
+    background-size: 13px;
+    background-repeat: no-repeat;
+}
+
+footer .form-select option{
+    color: black;
+}
+
+footer .form-select:focus{
+    border-color: #757575;
+    box-shadow: none;
+}
+
+ul li{
+    margin-bottom: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #757575;
+    opacity: .75;
+    /* font-weight: 100; */
+}
+
+ul li a:hover{
+    color: white;
+    opacity: 1;
+}
+
+
+@media screen and (min-width:768px){
+    .navbar-brand img{
+        width: 197px;
+    }
+}
